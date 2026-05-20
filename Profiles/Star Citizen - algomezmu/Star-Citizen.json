@@ -1,0 +1,618 @@
+[
+  {
+    "name": "Release All Keys",
+    "triggers": [
+      "release all keys",
+      "stop all commands",
+      "stop all",
+      "release keys",
+      "liberar teclas",
+      "soltar todo",
+      "parar todo"
+    ],
+    "key_sequence": [],
+    "confirmation": "All keys released.",
+    "enabled": true
+  },
+  {
+    "name": "Max Power Weapons",
+    "triggers": [
+      "max power to weapons",
+      "weapons max",
+      "full power weapons",
+      "armas al máximo",
+      "máxima energía armas"
+    ],
+    "key_sequence": [
+      {
+        "key": "F7",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "hold": true,
+        "hold_duration": 0.8,
+        "hold_infinite": false
+      },
+      {
+        "key": "F5",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05000000000000002,
+        "hold": true,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Maximum power to weapons.",
+    "enabled": true
+  },
+  {
+    "name": "Increase Power Weapons",
+    "triggers": [
+      "increase weapon power",
+      "more power to weapons",
+      "boost weapons",
+      "aumentar armas",
+      "más energía armas"
+    ],
+    "key_sequence": [
+      {
+        "key": "F5",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Increasing weapon power.",
+    "enabled": true
+  },
+  {
+    "name": "Decrease Power Weapons",
+    "triggers": [
+      "decrease weapon power",
+      "less power to weapons",
+      "reducir armas",
+      "menos energía armas"
+    ],
+    "key_sequence": [
+      {
+        "key": "F5",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Decreasing weapon power.",
+    "enabled": true
+  },
+  {
+    "name": "Min Power Weapons",
+    "triggers": [
+      "min power weapons",
+      "weapons minimum power",
+      "mínima energía armas"
+    ],
+    "key_sequence": [
+      {
+        "key": "F5",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": true,
+        "hold_duration": 0.8,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Minimum power to weapons.",
+    "enabled": true
+  },
+  {
+    "name": "Max Power Engines",
+    "triggers": [
+      "max power to engines",
+      "engines max",
+      "full power engines",
+      "motores al máximo",
+      "máxima energía motores"
+    ],
+    "key_sequence": [
+      {
+        "key": "F6",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": true,
+        "hold_duration": 0.8,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Maximum power to engines.",
+    "enabled": true
+  },
+  {
+    "name": "Increase Power Engines",
+    "triggers": [
+      "increase engine power",
+      "more power to engines",
+      "boost engines",
+      "aumentar motores",
+      "más energía motores"
+    ],
+    "key_sequence": [
+      {
+        "key": "F6",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Increasing engine power.",
+    "enabled": true
+  },
+  {
+    "name": "Decrease Power Engines",
+    "triggers": [
+      "decrease engine power",
+      "less power to engines",
+      "reducir motores",
+      "menos energía motores"
+    ],
+    "key_sequence": [
+      {
+        "key": "F6",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Decreasing engine power.",
+    "enabled": true
+  },
+  {
+    "name": "Min Power Engines",
+    "triggers": [
+      "min power engines",
+      "engines minimum power",
+      "mínima energía motores"
+    ],
+    "key_sequence": [
+      {
+        "key": "F6",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": true,
+        "hold_duration": 0.8,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Minimum power to engines.",
+    "enabled": true
+  },
+  {
+    "name": "Max Power Shields",
+    "triggers": [
+      "max power to shields",
+      "shields max",
+      "full power shields",
+      "escudos al máximo",
+      "máxima energía escudos"
+    ],
+    "key_sequence": [
+      {
+        "key": "F5",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "hold": true,
+        "hold_duration": 0.8,
+        "hold_infinite": false
+      },
+      {
+        "key": "F7",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": true,
+        "hold_duration": 0.7999999999999999,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Maximum power to shields.",
+    "enabled": true
+  },
+  {
+    "name": "Increase Power Shields",
+    "triggers": [
+      "increase shield power",
+      "more power to shields",
+      "boost shields",
+      "aumentar escudos",
+      "más energía escudos"
+    ],
+    "key_sequence": [
+      {
+        "key": "F7",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Increasing shield power.",
+    "enabled": true
+  },
+  {
+    "name": "Decrease Power Shields",
+    "triggers": [
+      "decrease shield power",
+      "less power to shields",
+      "reducir escudos",
+      "menos energía escudos"
+    ],
+    "key_sequence": [
+      {
+        "key": "F7",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Decreasing shield power.",
+    "enabled": true
+  },
+  {
+    "name": "Min Power Shields",
+    "triggers": [
+      "min power shields",
+      "shields minimum power",
+      "mínima energía escudos"
+    ],
+    "key_sequence": [
+      {
+        "key": "F7",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": true,
+        "hold_duration": 0.8,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Minimum power to shields.",
+    "enabled": true
+  },
+  {
+    "name": "Reset Power",
+    "triggers": [
+      "reset power",
+      "reset power distribution",
+      "equalise power",
+      "resetear energía",
+      "distribución por defecto"
+    ],
+    "key_sequence": [
+      {
+        "key": "F8",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Power distribution reset.",
+    "enabled": true
+  },
+  {
+    "name": "Toggle Shields Power",
+    "triggers": [
+      "toggle shields",
+      "shields on off",
+      "apagar encender escudos",
+      "activar desactivar escudos"
+    ],
+    "key_sequence": [
+      {
+        "key": "o",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Shield power toggled.",
+    "enabled": true
+  },
+  {
+    "name": "Toggle Weapons Power",
+    "triggers": [
+      "toggle weapons power",
+      "weapons power on off",
+      "apagar encender armas",
+      "activar desactivar armas"
+    ],
+    "key_sequence": [
+      {
+        "key": "p",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Weapons power toggled.",
+    "enabled": true
+  },
+  {
+    "name": "Toggle Thrusters",
+    "triggers": [
+      "toggle thrusters",
+      "thrusters on off",
+      "apagar encender propulsores",
+      "motores on off"
+    ],
+    "key_sequence": [
+      {
+        "key": "i",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Thrusters toggled.",
+    "enabled": true
+  },
+  {
+    "name": "Toggle All Power",
+    "triggers": [
+      "toggle all power",
+      "all systems on off",
+      "apagar todo",
+      "encender todo",
+      "todo apagado"
+    ],
+    "key_sequence": [
+      {
+        "key": "u",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "All systems toggled.",
+    "enabled": true
+  },
+  {
+    "name": "Launch Decoys",
+    "triggers": [
+      "launch decoys",
+      "deploy decoys",
+      "flares",
+      "lanzar señuelos",
+      "señuelos"
+    ],
+    "key_sequence": [
+      {
+        "key": "h",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Decoys launched.",
+    "enabled": true
+  },
+  {
+    "name": "Deploy Noise",
+    "triggers": [
+      "deploy noise",
+      "launch noise",
+      "noise countermeasure",
+      "lanzar ruido",
+      "contramedida ruido"
+    ],
+    "key_sequence": [
+      {
+        "key": "j",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Noise deployed.",
+    "enabled": true
+  },
+  {
+    "name": "Quantum Drive",
+    "triggers": [
+      "quantum drive",
+      "engage quantum",
+      "nav mode",
+      "quantum jump",
+      "activar quantum",
+      "modo nav"
+    ],
+    "key_sequence": [
+      {
+        "key": "b",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": true,
+        "hold_duration": 0.8,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Quantum drive engaged.",
+    "enabled": true
+  },
+  {
+    "name": "MFD Next Page",
+    "triggers": [
+      "mfd next",
+      "mfd forward",
+      "next mfd page",
+      "siguiente página mfd",
+      "mfd siguiente"
+    ],
+    "key_sequence": [
+      {
+        "key": "e",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "MFD next page.",
+    "enabled": true
+  },
+  {
+    "name": "MFD Previous Page",
+    "triggers": [
+      "mfd back",
+      "mfd previous",
+      "previous mfd page",
+      "página anterior mfd",
+      "mfd anterior"
+    ],
+    "key_sequence": [
+      {
+        "key": "q",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "MFD previous page.",
+    "enabled": true
+  },
+  {
+    "name": "Landing Gear",
+    "triggers": [
+      "landing gear",
+      "deploy gear",
+      "retract gear",
+      "tren de aterrizaje",
+      "bajar tren"
+    ],
+    "key_sequence": [
+      {
+        "key": "n",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Landing gear toggled.",
+    "enabled": true
+  },
+  {
+    "name": "Autoland",
+    "triggers": [
+      "autoland",
+      "auto land",
+      "automatic landing",
+      "aterrizaje automático"
+    ],
+    "key_sequence": [
+      {
+        "key": "n",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": true,
+        "hold_duration": 1.0,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Autoland engaged.",
+    "enabled": true
+  },
+  {
+    "name": "Scan Mode",
+    "triggers": [
+      "scan mode",
+      "activate scanner",
+      "scanning",
+      "modo escaneo",
+      "activar escáner"
+    ],
+    "key_sequence": [
+      {
+        "key": "v",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Scan mode activated.",
+    "enabled": true
+  }
+]
