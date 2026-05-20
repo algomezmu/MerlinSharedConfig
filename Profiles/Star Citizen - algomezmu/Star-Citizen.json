@@ -39,7 +39,7 @@
         "key": "F5",
         "modifiers": [],
         "delay_before": 0.0,
-        "delay_after": 0.05000000000000002,
+        "delay_after": 0.05,
         "hold": true,
         "hold_duration": 0.5,
         "hold_infinite": false
@@ -238,7 +238,7 @@
         "delay_before": 0.0,
         "delay_after": 0.05,
         "hold": true,
-        "hold_duration": 0.7999999999999999,
+        "hold_duration": 0.8,
         "hold_infinite": false
       }
     ],
