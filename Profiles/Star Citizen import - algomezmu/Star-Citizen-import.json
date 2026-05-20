@@ -93,5 +93,14 @@
     ],
     "confirmation": "Increasing engine power.",
     "enabled": true
+  },
+  {
+    "name": "Test update",
+    "triggers": [
+      "test"
+    ],
+    "key_sequence": [],
+    "confirmation": "",
+    "enabled": true
   }
 ]
