@@ -3,6 +3,22 @@
     "id": "power",
     "name": "Power Distribution",
     "icon": "⚡",
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Weapons",
+          "Engines",
+          "Shields"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "System"
+        ]
+      }
+    ],
     "buttons": [
       {
         "label": "MAX",
@@ -106,28 +122,23 @@
         "command": "Toggle All Power",
         "color": "red"
       }
-    ],
-    "layout": [
-      {
-        "type": "columns",
-        "groups": [
-          "Weapons",
-          "Engines",
-          "Shields"
-        ]
-      },
-      {
-        "type": "row",
-        "groups": [
-          "System"
-        ]
-      }
     ]
   },
   {
     "id": "navigation",
     "name": "Navigation",
     "icon": "🚀",
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "FTL",
+          "Landing",
+          "Systems",
+          "MFD"
+        ]
+      }
+    ],
     "buttons": [
       {
         "label": "QUANTUM\nDRIVE",
@@ -171,6 +182,20 @@
     "id": "combat",
     "name": "Combat",
     "icon": "🎯",
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Countermeasures"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "System"
+        ]
+      }
+    ],
     "buttons": [
       {
         "label": "DECOYS",
@@ -196,6 +221,22 @@
     "id": "shields",
     "name": "Shields",
     "icon": "🛡️",
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "LEFT",
+          "Face",
+          "RIGHT"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "System"
+        ]
+      }
+    ],
     "buttons": [
       {
         "label": "FRONT",
@@ -226,78 +267,7 @@
         "group": "System",
         "command": "Shield Reset Levels",
         "color": "orange"
-      },
-      {
-        "label": "Config",
-        "group": "Testing",
-        "command": "Decrease Power Engines",
-        "color": "cyan"
-      },
-      {
-        "spacer": true,
-        "group": "-"
-      },
-      {
-        "label": "Hola",
-        "group": "LEFT",
-        "command": "Decrease Power Shields",
-        "color": "cyan"
-      },
-      {
-        "label": "Test",
-        "group": "Testing2",
-        "command": "Decrease Power Shields",
-        "color": "cyan"
-      },
-      {
-        "label": "test",
-        "group": "Testing2",
-        "command": "Deploy Noise",
-        "color": "cyan"
       }
-    ],
-    "layout": [
-      {
-        "type": "columns",
-        "groups": [
-          "LEFT",
-          "Face",
-          "RIGHT"
-        ]
-      },
-      {
-        "type": "row",
-        "groups": [
-          "System"
-        ]
-      },
-      {
-        "type": "columns",
-        "groups": [
-          "-",
-          "Testing",
-          "-"
-        ]
-      },
-      {
-        "type": "row",
-        "groups": [
-          "Testing2"
-        ]
-      }
-    ],
-    "group_config": {
-      "-": {
-        "hide_header": true,
-        "hide_background": true
-      },
-      "Testing": {
-        "hide_header": true
-      },
-      "Testing2": {
-        "hide_header": true,
-        "hide_background": true
-      }
-    }
+    ]
   }
 ]
