@@ -2,7 +2,7 @@
 
 **Shared by:** @algomezmu
 
-Star citizen copy of the Star citizen one, just to test the pull request feature
+test update
 
 ---
 *Shared via [Merlin AI Flight Assistant](https://github.com/algomezmu/MerlingSharedConfig)*
