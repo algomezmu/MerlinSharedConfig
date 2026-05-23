@@ -25,17 +25,6 @@
     ],
     "key_sequence": [
       {
-        "key": "F7",
-        "modifiers": [
-          "alt"
-        ],
-        "delay_before": 0.0,
-        "delay_after": 0.5,
-        "hold": true,
-        "hold_duration": 0.8,
-        "hold_infinite": false
-      },
-      {
         "key": "F5",
         "modifiers": [],
         "delay_before": 0.0,
@@ -613,6 +602,182 @@
       }
     ],
     "confirmation": "Scan mode activated.",
+    "enabled": true
+  },
+  {
+    "name": "Shield Raise Front",
+    "triggers": [
+      "shields raise front",
+      "shield raise front",
+      "escudos al frente"
+    ],
+    "key_sequence": [
+      {
+        "key": "F5",
+        "modifiers": [
+          "alt_r"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  },
+  {
+    "name": "Shield Raise Back",
+    "triggers": [
+      "shields raise back",
+      "shield raise back",
+      "escudos atrás"
+    ],
+    "key_sequence": [
+      {
+        "key": "F8",
+        "modifiers": [
+          "alt_r"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  },
+  {
+    "name": "Shield Raise Left",
+    "triggers": [
+      "shield raise left",
+      "escudos a la izquierda"
+    ],
+    "key_sequence": [
+      {
+        "key": "F6",
+        "modifiers": [
+          "alt_r"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  },
+  {
+    "name": "Shield Raise Right",
+    "triggers": [
+      "shield raise right",
+      "escudos a la derecha"
+    ],
+    "key_sequence": [
+      {
+        "key": "F7",
+        "modifiers": [
+          "alt_r"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  },
+  {
+    "name": "Shield Reset Levels",
+    "triggers": [
+      "shield reset levels",
+      "restaurar escudos"
+    ],
+    "key_sequence": [
+      {
+        "key": "F9",
+        "modifiers": [
+          "alt_r"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  },
+  {
+    "name": "Eject",
+    "triggers": [
+      "Eject now",
+      "Eyectar ahora"
+    ],
+    "key_sequence": [
+      {
+        "key": "y",
+        "modifiers": [
+          "alt_r"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  },
+  {
+    "name": "Night Vision",
+    "triggers": [
+      "night vision",
+      "vision norcturna"
+    ],
+    "key_sequence": [
+      {
+        "key": "l",
+        "modifiers": [
+          "alt_r"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  },
+  {
+    "name": "Mining Refueling mode",
+    "triggers": [
+      "mining mode",
+      "refueling mode"
+    ],
+    "key_sequence": [
+      {
+        "key": "m",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
     "enabled": true
   }
 ]
