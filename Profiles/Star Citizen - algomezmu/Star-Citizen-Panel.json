@@ -3,22 +3,6 @@
     "id": "power",
     "name": "Power Distribution",
     "icon": "⚡",
-    "layout": [
-      {
-        "type": "columns",
-        "groups": [
-          "Weapons",
-          "Engines",
-          "Shields"
-        ]
-      },
-      {
-        "type": "row",
-        "groups": [
-          "System"
-        ]
-      }
-    ],
     "buttons": [
       {
         "label": "MAX",
@@ -100,19 +84,19 @@
       },
       {
         "label": "SHD\nTGL",
-        "group": "System",
+        "group": "System3",
         "command": "Toggle Shields Power",
         "color": "green"
       },
       {
         "label": "WPN\nTGL",
-        "group": "System",
+        "group": "System3",
         "command": "Toggle Weapons Power",
         "color": "orange"
       },
       {
         "label": "THR\nTGL",
-        "group": "System",
+        "group": "System3",
         "command": "Toggle Thrusters",
         "color": "blue"
       },
@@ -121,72 +105,51 @@
         "group": "System",
         "command": "Toggle All Power",
         "color": "red"
-      }
-    ]
-  },
-  {
-    "id": "navigation",
-    "name": "Navigation",
-    "icon": "🚀",
-    "layout": [
+      },
       {
-        "type": "columns",
-        "groups": [
-          "FTL",
-          "Landing",
-          "Systems",
-          "MFD"
-        ]
+        "checked": true,
+        "color": "blue",
+        "command_off": "Toggle Shields Power",
+        "command_on": "Toggle Shields Power",
+        "group": "System",
+        "label": "SHD",
+        "type": "checkbox"
+      },
+      {
+        "checked": true,
+        "color": "orange",
+        "command_off": "Toggle Weapons Power",
+        "command_on": "Toggle Weapons Power",
+        "group": "System",
+        "label": "WPN",
+        "type": "checkbox"
+      },
+      {
+        "checked": true,
+        "color": "cyan",
+        "command_off": "Toggle Thrusters",
+        "command_on": "Toggle Thrusters",
+        "group": "System",
+        "label": "THR",
+        "type": "checkbox"
+      },
+      {
+        "checked": true,
+        "color": "red",
+        "command_off": "Toggle All Power",
+        "command_on": "Toggle All Power",
+        "group": "System3",
+        "label": "All",
+        "type": "checkbox"
       }
     ],
-    "buttons": [
-      {
-        "label": "QUANTUM\nDRIVE",
-        "group": "FTL",
-        "command": "Quantum Drive",
-        "color": "cyan"
-      },
-      {
-        "label": "GEAR",
-        "group": "Landing",
-        "command": "Landing Gear",
-        "color": "blue"
-      },
-      {
-        "label": "AUTO\nLAND",
-        "group": "Landing",
-        "command": "Autoland",
-        "color": "green"
-      },
-      {
-        "label": "SCAN\nMODE",
-        "group": "Systems",
-        "command": "Scan Mode",
-        "color": "cyan"
-      },
-      {
-        "label": "MFD\nNEXT",
-        "group": "MFD",
-        "command": "MFD Next Page",
-        "color": "blue"
-      },
-      {
-        "label": "MFD\nPREV",
-        "group": "MFD",
-        "command": "MFD Previous Page",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": "combat",
-    "name": "Combat",
-    "icon": "🎯",
     "layout": [
       {
         "type": "columns",
         "groups": [
-          "Countermeasures"
+          "Weapons",
+          "Engines",
+          "Shields"
         ]
       },
       {
@@ -194,26 +157,6 @@
         "groups": [
           "System"
         ]
-      }
-    ],
-    "buttons": [
-      {
-        "label": "DECOYS",
-        "group": "Countermeasures",
-        "command": "Launch Decoys",
-        "color": "orange"
-      },
-      {
-        "label": "NOISE",
-        "group": "Countermeasures",
-        "command": "Deploy Noise",
-        "color": "orange"
-      },
-      {
-        "label": "RELEASE\nALL",
-        "group": "System",
-        "command": "Release All Keys",
-        "color": "red"
       }
     ]
   },
@@ -221,22 +164,6 @@
     "id": "shields",
     "name": "Shields",
     "icon": "🛡️",
-    "layout": [
-      {
-        "type": "columns",
-        "groups": [
-          "LEFT",
-          "Face",
-          "RIGHT"
-        ]
-      },
-      {
-        "type": "row",
-        "groups": [
-          "System"
-        ]
-      }
-    ],
     "buttons": [
       {
         "label": "FRONT",
@@ -267,6 +194,148 @@
         "group": "System",
         "command": "Shield Reset Levels",
         "color": "orange"
+      }
+    ],
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "LEFT",
+          "Face",
+          "RIGHT"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "System"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "combat",
+    "name": "Combat",
+    "icon": "🎯",
+    "buttons": [
+      {
+        "label": "DECOYS",
+        "group": "Countermeasures",
+        "command": "Launch Decoys",
+        "color": "orange"
+      },
+      {
+        "label": "NOISE",
+        "group": "Countermeasures",
+        "command": "Deploy Noise",
+        "color": "orange"
+      }
+    ],
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Countermeasures"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "System"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "navigation",
+    "name": "Navigation",
+    "icon": "🚀",
+    "buttons": [
+      {
+        "label": "QUANTUM\nDRIVE",
+        "group": "FTL",
+        "command": "Quantum Drive",
+        "color": "cyan"
+      },
+      {
+        "label": "GEAR",
+        "group": "Landing",
+        "command": "Landing Gear",
+        "color": "blue"
+      },
+      {
+        "label": "AUTO\nLAND",
+        "group": "Landing",
+        "command": "Autoland",
+        "color": "green"
+      },
+      {
+        "checked": false,
+        "color": "orange",
+        "command_off": "Night Vision",
+        "command_on": "Night Vision",
+        "group": "Systems",
+        "label": "Night vision",
+        "type": "checkbox"
+      },
+      {
+        "label": "SCAN\nMODE",
+        "group": "Systems",
+        "command": "Scan Mode",
+        "color": "cyan"
+      },
+      {
+        "checked": false,
+        "color": "yellow",
+        "command_off": "Mining Refueling mode",
+        "command_on": "Mining Refueling mode",
+        "group": "Systems",
+        "label": "Mining/Refueling  MODE",
+        "type": "checkbox"
+      },
+      {
+        "label": "MFD\nNEXT",
+        "group": "MFD",
+        "command": "MFD Next Page",
+        "color": "blue"
+      },
+      {
+        "label": "MFD\nPREV",
+        "group": "MFD",
+        "command": "MFD Previous Page",
+        "color": "blue"
+      }
+    ],
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "FTL",
+          "Landing",
+          "Systems",
+          "MFD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eject",
+    "name": "Eject",
+    "icon": "🔴",
+    "buttons": [
+      {
+        "label": "Eject",
+        "group": "Eject",
+        "command": "Eject",
+        "color": "red"
+      }
+    ],
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Eject"
+        ]
       }
     ]
   }
