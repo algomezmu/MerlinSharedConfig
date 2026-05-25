@@ -1,0 +1,35 @@
+[
+  {
+    "id": "arma",
+    "name": "Arma",
+    "icon": "🏃",
+    "buttons": [
+      {
+        "label": "Andar",
+        "group": "Commands",
+        "command": "Walk",
+        "color": "white"
+      },
+      {
+        "label": "Parar",
+        "group": "Stop walking",
+        "command": "Release All Keys",
+        "color": "red"
+      }
+    ],
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Commands"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "Stop walking"
+        ]
+      }
+    ]
+  }
+]

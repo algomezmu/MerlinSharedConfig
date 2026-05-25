@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Release All Keys",
+    "triggers": [
+      "release all keys",
+      "stop all commands",
+      "stop all",
+      "release keys",
+      "liberar teclas",
+      "soltar todo",
+      "parar todo"
+    ],
+    "key_sequence": [],
+    "confirmation": "All keys released.",
+    "enabled": true
+  },
+  {
+    "name": "Walk",
+    "triggers": [
+      "walk",
+      "andar"
+    ],
+    "key_sequence": [
+      {
+        "key": "w",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": true
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  }
+]
