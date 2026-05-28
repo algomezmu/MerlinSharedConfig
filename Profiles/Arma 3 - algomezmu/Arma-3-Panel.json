@@ -1,0 +1,246 @@
+[
+  {
+    "id": "arma3_infantry",
+    "name": "Infantry",
+    "icon": "🪖",
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Stance",
+          "Weapon",
+          "Zeroing",
+          "Gear"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "System"
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "label": "PRONE",
+        "group": "Stance",
+        "command": "Prone",
+        "color": "green"
+      },
+      {
+        "label": "CROUCH",
+        "group": "Stance",
+        "command": "Crouch",
+        "color": "green"
+      },
+      {
+        "label": "JUMP",
+        "group": "Stance",
+        "command": "Jump",
+        "color": "yellow"
+      },
+      {
+        "label": "WALK",
+        "group": "Stance",
+        "command": "Tactical Pace",
+        "color": "cyan"
+      },
+      {
+        "label": "RELOAD",
+        "group": "Weapon",
+        "command": "Reload",
+        "color": "orange"
+      },
+      {
+        "label": "FIRE\nMODE",
+        "group": "Weapon",
+        "command": "Switch Fire Mode",
+        "color": "orange"
+      },
+      {
+        "label": "HOLSTER",
+        "group": "Weapon",
+        "command": "Holster Weapon",
+        "color": "orange"
+      },
+      {
+        "label": "GRENADE",
+        "group": "Weapon",
+        "command": "Throw Grenade",
+        "color": "red"
+      },
+      {
+        "label": "ZERO ▲",
+        "group": "Zeroing",
+        "command": "Zeroing Up",
+        "color": "cyan"
+      },
+      {
+        "label": "ZERO ▼",
+        "group": "Zeroing",
+        "command": "Zeroing Down",
+        "color": "cyan"
+      },
+      {
+        "label": "NVG",
+        "group": "Gear",
+        "command": "Night Vision",
+        "color": "green"
+      },
+      {
+        "label": "INVEN\nTORY",
+        "group": "Gear",
+        "command": "Inventory",
+        "color": "blue"
+      },
+      {
+        "label": "RELEASE\nALL",
+        "group": "System",
+        "command": "Release All Keys",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": "arma3_comms",
+    "name": "Comms",
+    "icon": "📡",
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Radio",
+          "Nav"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "System"
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "label": "VON",
+        "group": "Radio",
+        "command": "VON Talk",
+        "color": "green"
+      },
+      {
+        "label": "RADIO\nALPHA",
+        "group": "Radio",
+        "command": "Radio Alpha",
+        "color": "cyan"
+      },
+      {
+        "label": "RADIO\nBRAVO",
+        "group": "Radio",
+        "command": "Radio Bravo",
+        "color": "blue"
+      },
+      {
+        "label": "MAP",
+        "group": "Nav",
+        "command": "Map",
+        "color": "cyan"
+      },
+      {
+        "label": "GPS",
+        "group": "Nav",
+        "command": "GPS",
+        "color": "cyan"
+      },
+      {
+        "label": "RELEASE\nALL",
+        "group": "System",
+        "command": "Release All Keys",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": "arma3_vehicle",
+    "name": "Vehicle",
+    "icon": "🚗",
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Vehicle"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "System"
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "label": "GET IN",
+        "group": "Vehicle",
+        "command": "Get In Vehicle",
+        "color": "green"
+      },
+      {
+        "label": "EJECT",
+        "group": "Vehicle",
+        "command": "Eject",
+        "color": "red"
+      },
+      {
+        "label": "ENGINE",
+        "group": "Vehicle",
+        "command": "Engine Toggle",
+        "color": "orange"
+      },
+      {
+        "label": "HAND\nBRAKE",
+        "group": "Vehicle",
+        "command": "Handbrake",
+        "color": "yellow"
+      },
+      {
+        "label": "RELEASE\nALL",
+        "group": "System",
+        "command": "Release All Keys",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": "walk",
+    "name": "Auto walk",
+    "icon": "🏃",
+    "buttons": [
+      {
+        "label": "Andar",
+        "group": "Commands",
+        "command": "Walk",
+        "color": "white"
+      },
+      {
+        "label": "Parar",
+        "group": "Stop walking",
+        "command": "Release All Keys",
+        "color": "red"
+      }
+    ],
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Commands"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "Stop walking"
+        ]
+      }
+    ]
+  }
+]
