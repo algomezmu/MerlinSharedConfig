@@ -1,0 +1,534 @@
+[
+  {
+    "name": "Release All Keys",
+    "triggers": [
+      "release all keys",
+      "stop all",
+      "liberar teclas"
+    ],
+    "key_sequence": [],
+    "confirmation": "All keys released.",
+    "enabled": true
+  },
+  {
+    "name": "Jump",
+    "triggers": [
+      "jump",
+      "vault",
+      "saltar",
+      "brincar"
+    ],
+    "key_sequence": [
+      {
+        "key": "v",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Jump.",
+    "enabled": true
+  },
+  {
+    "name": "Prone",
+    "triggers": [
+      "go prone",
+      "prone",
+      "lie down",
+      "tumbarse",
+      "cuerpo a tierra"
+    ],
+    "key_sequence": [
+      {
+        "key": "z",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Prone.",
+    "enabled": true
+  },
+  {
+    "name": "Crouch",
+    "triggers": [
+      "crouch",
+      "duck",
+      "agacharse",
+      "ponerse en cuclillas"
+    ],
+    "key_sequence": [
+      {
+        "key": "x",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Crouch.",
+    "enabled": true
+  },
+  {
+    "name": "Holster Weapon",
+    "triggers": [
+      "holster",
+      "put away weapon",
+      "lower weapon",
+      "guardar arma",
+      "enfundar"
+    ],
+    "key_sequence": [
+      {
+        "key": "backspace",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Weapon holstered.",
+    "enabled": true
+  },
+  {
+    "name": "Switch Fire Mode",
+    "triggers": [
+      "switch fire mode",
+      "change fire mode",
+      "fire mode",
+      "cambiar modo disparo",
+      "modo fuego"
+    ],
+    "key_sequence": [
+      {
+        "key": "f",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Fire mode switched.",
+    "enabled": true
+  },
+  {
+    "name": "Reload",
+    "triggers": [
+      "reload",
+      "recargar",
+      "cargar"
+    ],
+    "key_sequence": [
+      {
+        "key": "r",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Reloading.",
+    "enabled": true
+  },
+  {
+    "name": "Throw Grenade",
+    "triggers": [
+      "throw grenade",
+      "grenade",
+      "granada",
+      "lanzar granada"
+    ],
+    "key_sequence": [
+      {
+        "key": "g",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Grenade thrown.",
+    "enabled": true
+  },
+  {
+    "name": "Zeroing Up",
+    "triggers": [
+      "zero up",
+      "increase zeroing",
+      "zeroing up",
+      "subir cero",
+      "aumentar cero"
+    ],
+    "key_sequence": [
+      {
+        "key": "page_up",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Zeroing increased.",
+    "enabled": true
+  },
+  {
+    "name": "Zeroing Down",
+    "triggers": [
+      "zero down",
+      "decrease zeroing",
+      "zeroing down",
+      "bajar cero",
+      "reducir cero"
+    ],
+    "key_sequence": [
+      {
+        "key": "page_down",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Zeroing decreased.",
+    "enabled": true
+  },
+  {
+    "name": "VON Talk",
+    "triggers": [
+      "push to talk",
+      "talk",
+      "von",
+      "voice",
+      "hablar",
+      "voz"
+    ],
+    "key_sequence": [
+      {
+        "key": "caps_lock",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "VON activated.",
+    "enabled": true
+  },
+  {
+    "name": "Radio Alpha",
+    "triggers": [
+      "radio alpha",
+      "short range radio",
+      "radio corto alcance",
+      "radio alfa"
+    ],
+    "key_sequence": [
+      {
+        "key": "`",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Radio Alpha.",
+    "enabled": true
+  },
+  {
+    "name": "Radio Bravo",
+    "triggers": [
+      "radio bravo",
+      "long range radio",
+      "radio largo alcance"
+    ],
+    "key_sequence": [
+      {
+        "key": "`",
+        "modifiers": [
+          "shift"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Radio Bravo.",
+    "enabled": true
+  },
+  {
+    "name": "Tactical Pace",
+    "triggers": [
+      "walk",
+      "tactical pace",
+      "slow walk",
+      "caminar despacio",
+      "paso táctico"
+    ],
+    "key_sequence": [
+      {
+        "key": "q",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Tactical pace.",
+    "enabled": true
+  },
+  {
+    "name": "Map",
+    "triggers": [
+      "open map",
+      "map",
+      "abrir mapa",
+      "mapa"
+    ],
+    "key_sequence": [
+      {
+        "key": "m",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Map opened.",
+    "enabled": true
+  },
+  {
+    "name": "GPS",
+    "triggers": [
+      "gps",
+      "open gps",
+      "abrir gps"
+    ],
+    "key_sequence": [
+      {
+        "key": "m",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "GPS.",
+    "enabled": true
+  },
+  {
+    "name": "Night Vision",
+    "triggers": [
+      "night vision",
+      "nvg",
+      "goggles",
+      "visión nocturna",
+      "gafas nocturnas"
+    ],
+    "key_sequence": [
+      {
+        "key": "n",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Night vision toggled.",
+    "enabled": true
+  },
+  {
+    "name": "Get In Vehicle",
+    "triggers": [
+      "get in",
+      "enter vehicle",
+      "mount",
+      "subir al vehículo",
+      "entrar"
+    ],
+    "key_sequence": [
+      {
+        "key": "f",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Getting in.",
+    "enabled": true
+  },
+  {
+    "name": "Eject",
+    "triggers": [
+      "eject",
+      "bail out",
+      "expulsar",
+      "saltar del vehículo"
+    ],
+    "key_sequence": [
+      {
+        "key": "e",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Ejecting.",
+    "enabled": true
+  },
+  {
+    "name": "Engine Toggle",
+    "triggers": [
+      "engine on",
+      "engine off",
+      "toggle engine",
+      "motor encender",
+      "motor apagar"
+    ],
+    "key_sequence": [
+      {
+        "key": "2",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Engine toggled.",
+    "enabled": true
+  },
+  {
+    "name": "Handbrake",
+    "triggers": [
+      "handbrake",
+      "brake",
+      "freno de mano",
+      "freno"
+    ],
+    "key_sequence": [
+      {
+        "key": "x",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Handbrake.",
+    "enabled": true
+  },
+  {
+    "name": "Inventory",
+    "triggers": [
+      "inventory",
+      "open inventory",
+      "inventario",
+      "abrir inventario"
+    ],
+    "key_sequence": [
+      {
+        "key": "i",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.1,
+        "hold": false,
+        "hold_duration": 0.3,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Inventory.",
+    "enabled": true
+  },
+  {
+    "name": "Freelook",
+    "triggers": [
+      "freelook",
+      "free look",
+      "look around",
+      "mirada libre"
+    ],
+    "key_sequence": [
+      {
+        "key": "alt",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.3,
+        "hold": true,
+        "hold_duration": 2.0,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Freelook.",
+    "enabled": true
+  },
+  {
+    "name": "Walk",
+    "triggers": [
+      "walk",
+      "caminar",
+      "andar"
+    ],
+    "key_sequence": [
+      {
+        "key": "w",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": true,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  }
+]
