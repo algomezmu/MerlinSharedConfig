@@ -1,0 +1,551 @@
+[
+  {
+    "id": "kb_especial",
+    "name": "Especial",
+    "icon": "⌨️",
+    "layout": [
+      {
+        "type": "row",
+        "groups": [
+          "Función"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "Control"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "Combinaciones"
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "label": "F1",
+        "group": "Función",
+        "command": "F1",
+        "color": "cyan"
+      },
+      {
+        "label": "F2",
+        "group": "Función",
+        "command": "F2",
+        "color": "cyan"
+      },
+      {
+        "label": "F3",
+        "group": "Función",
+        "command": "F3",
+        "color": "cyan"
+      },
+      {
+        "label": "F4",
+        "group": "Función",
+        "command": "F4",
+        "color": "cyan"
+      },
+      {
+        "label": "F5",
+        "group": "Función",
+        "command": "F5",
+        "color": "cyan"
+      },
+      {
+        "label": "F6",
+        "group": "Función",
+        "command": "F6",
+        "color": "cyan"
+      },
+      {
+        "label": "F7",
+        "group": "Función",
+        "command": "F7",
+        "color": "cyan"
+      },
+      {
+        "label": "F8",
+        "group": "Función",
+        "command": "F8",
+        "color": "cyan"
+      },
+      {
+        "label": "F9",
+        "group": "Función",
+        "command": "F9",
+        "color": "cyan"
+      },
+      {
+        "label": "F10",
+        "group": "Función",
+        "command": "F10",
+        "color": "cyan"
+      },
+      {
+        "label": "F11",
+        "group": "Función",
+        "command": "F11",
+        "color": "cyan"
+      },
+      {
+        "label": "F12",
+        "group": "Función",
+        "command": "F12",
+        "color": "cyan"
+      },
+      {
+        "label": "ESC",
+        "group": "Control",
+        "command": "Escape",
+        "color": "red"
+      },
+      {
+        "label": "TAB",
+        "group": "Control",
+        "command": "Tab",
+        "color": "blue"
+      },
+      {
+        "label": "↵",
+        "group": "Control",
+        "command": "Enter",
+        "color": "green"
+      },
+      {
+        "label": "⌫",
+        "group": "Control",
+        "command": "Backspace",
+        "color": "orange"
+      },
+      {
+        "label": "DEL",
+        "group": "Control",
+        "command": "Suprimir",
+        "color": "orange"
+      },
+      {
+        "label": "INS",
+        "group": "Control",
+        "command": "Insertar",
+        "color": "blue"
+      },
+      {
+        "label": "INICIO",
+        "group": "Control",
+        "command": "Inicio",
+        "color": "white"
+      },
+      {
+        "label": "FIN",
+        "group": "Control",
+        "command": "Fin",
+        "color": "white"
+      },
+      {
+        "label": "RE\nPÁG",
+        "group": "Control",
+        "command": "Re Pág",
+        "color": "white"
+      },
+      {
+        "label": "AV\nPÁG",
+        "group": "Control",
+        "command": "Av Pág",
+        "color": "white"
+      },
+      {
+        "label": "↑",
+        "group": "Control",
+        "command": "Flecha arriba",
+        "color": "white"
+      },
+      {
+        "label": "↓",
+        "group": "Control",
+        "command": "Flecha abajo",
+        "color": "white"
+      },
+      {
+        "label": "←",
+        "group": "Control",
+        "command": "Flecha izquierda",
+        "color": "white"
+      },
+      {
+        "label": "→",
+        "group": "Control",
+        "command": "Flecha derecha",
+        "color": "white"
+      },
+      {
+        "label": "COPIAR",
+        "group": "Combinaciones",
+        "command": "Copiar",
+        "color": "blue"
+      },
+      {
+        "label": "PEGAR",
+        "group": "Combinaciones",
+        "command": "Pegar",
+        "color": "blue"
+      },
+      {
+        "label": "CORTAR",
+        "group": "Combinaciones",
+        "command": "Cortar",
+        "color": "blue"
+      },
+      {
+        "label": "DESHACER",
+        "group": "Combinaciones",
+        "command": "Deshacer",
+        "color": "orange"
+      },
+      {
+        "label": "REHACER",
+        "group": "Combinaciones",
+        "command": "Rehacer",
+        "color": "orange"
+      },
+      {
+        "label": "GUARDAR",
+        "group": "Combinaciones",
+        "command": "Guardar",
+        "color": "green"
+      },
+      {
+        "label": "SEL\nTODO",
+        "group": "Combinaciones",
+        "command": "Seleccionar todo",
+        "color": "cyan"
+      },
+      {
+        "label": "BUSCAR",
+        "group": "Combinaciones",
+        "command": "Buscar",
+        "color": "cyan"
+      },
+      {
+        "label": "ALT\nTAB",
+        "group": "Combinaciones",
+        "command": "Alt Tab",
+        "color": "yellow"
+      },
+      {
+        "label": "ALT\nF4",
+        "group": "Combinaciones",
+        "command": "Alt F4",
+        "color": "red"
+      },
+      {
+        "label": "WIN\nD",
+        "group": "Combinaciones",
+        "command": "Win D",
+        "color": "white"
+      }
+    ]
+  },
+  {
+    "id": "kb_letras",
+    "name": "Letras",
+    "icon": "🔤",
+    "layout": [
+      {
+        "type": "row",
+        "groups": [
+          "Fila 1"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "Fila 2"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "Fila 3"
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Q",
+        "group": "Fila 1",
+        "command": "Q",
+        "color": "white"
+      },
+      {
+        "label": "W",
+        "group": "Fila 1",
+        "command": "W",
+        "color": "white"
+      },
+      {
+        "label": "E",
+        "group": "Fila 1",
+        "command": "E",
+        "color": "white"
+      },
+      {
+        "label": "R",
+        "group": "Fila 1",
+        "command": "R",
+        "color": "white"
+      },
+      {
+        "label": "T",
+        "group": "Fila 1",
+        "command": "T",
+        "color": "white"
+      },
+      {
+        "label": "Y",
+        "group": "Fila 1",
+        "command": "Y",
+        "color": "white"
+      },
+      {
+        "label": "U",
+        "group": "Fila 1",
+        "command": "U",
+        "color": "white"
+      },
+      {
+        "label": "I",
+        "group": "Fila 1",
+        "command": "I",
+        "color": "white"
+      },
+      {
+        "label": "O",
+        "group": "Fila 1",
+        "command": "O",
+        "color": "white"
+      },
+      {
+        "label": "P",
+        "group": "Fila 1",
+        "command": "P",
+        "color": "white"
+      },
+      {
+        "label": "A",
+        "group": "Fila 2",
+        "command": "A",
+        "color": "white"
+      },
+      {
+        "label": "S",
+        "group": "Fila 2",
+        "command": "S",
+        "color": "white"
+      },
+      {
+        "label": "D",
+        "group": "Fila 2",
+        "command": "D",
+        "color": "white"
+      },
+      {
+        "label": "F",
+        "group": "Fila 2",
+        "command": "F",
+        "color": "white"
+      },
+      {
+        "label": "G",
+        "group": "Fila 2",
+        "command": "G",
+        "color": "white"
+      },
+      {
+        "label": "H",
+        "group": "Fila 2",
+        "command": "H",
+        "color": "white"
+      },
+      {
+        "label": "J",
+        "group": "Fila 2",
+        "command": "J",
+        "color": "white"
+      },
+      {
+        "label": "K",
+        "group": "Fila 2",
+        "command": "K",
+        "color": "white"
+      },
+      {
+        "label": "L",
+        "group": "Fila 2",
+        "command": "L",
+        "color": "white"
+      },
+      {
+        "label": "Ñ",
+        "group": "Fila 2",
+        "command": "Ñ",
+        "color": "cyan"
+      },
+      {
+        "label": "Z",
+        "group": "Fila 3",
+        "command": "Z",
+        "color": "white"
+      },
+      {
+        "label": "X",
+        "group": "Fila 3",
+        "command": "X",
+        "color": "white"
+      },
+      {
+        "label": "C",
+        "group": "Fila 3",
+        "command": "C",
+        "color": "white"
+      },
+      {
+        "label": "V",
+        "group": "Fila 3",
+        "command": "V",
+        "color": "white"
+      },
+      {
+        "label": "B",
+        "group": "Fila 3",
+        "command": "B",
+        "color": "white"
+      },
+      {
+        "label": "N",
+        "group": "Fila 3",
+        "command": "N",
+        "color": "white"
+      },
+      {
+        "label": "M",
+        "group": "Fila 3",
+        "command": "M",
+        "color": "white"
+      },
+      {
+        "label": "ESPACIO",
+        "group": "Fila 3",
+        "command": "Barra espaciadora",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": "kb_numeros",
+    "name": "Números",
+    "icon": "🔢",
+    "layout": [
+      {
+        "type": "row",
+        "groups": [
+          "Fila num"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "Control"
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "label": "1",
+        "group": "Fila num",
+        "command": "Uno",
+        "color": "yellow"
+      },
+      {
+        "label": "2",
+        "group": "Fila num",
+        "command": "Dos",
+        "color": "yellow"
+      },
+      {
+        "label": "3",
+        "group": "Fila num",
+        "command": "Tres",
+        "color": "yellow"
+      },
+      {
+        "label": "4",
+        "group": "Fila num",
+        "command": "Cuatro",
+        "color": "yellow"
+      },
+      {
+        "label": "5",
+        "group": "Fila num",
+        "command": "Cinco",
+        "color": "yellow"
+      },
+      {
+        "label": "6",
+        "group": "Fila num",
+        "command": "Seis",
+        "color": "yellow"
+      },
+      {
+        "label": "7",
+        "group": "Fila num",
+        "command": "Siete",
+        "color": "yellow"
+      },
+      {
+        "label": "8",
+        "group": "Fila num",
+        "command": "Ocho",
+        "color": "yellow"
+      },
+      {
+        "label": "9",
+        "group": "Fila num",
+        "command": "Nueve",
+        "color": "yellow"
+      },
+      {
+        "label": "0",
+        "group": "Fila num",
+        "command": "Cero",
+        "color": "yellow"
+      },
+      {
+        "label": "ESC",
+        "group": "Control",
+        "command": "Escape",
+        "color": "red"
+      },
+      {
+        "label": "↵",
+        "group": "Control",
+        "command": "Enter",
+        "color": "green"
+      },
+      {
+        "label": "⌫",
+        "group": "Control",
+        "command": "Backspace",
+        "color": "orange"
+      },
+      {
+        "label": "ESPACIO",
+        "group": "Control",
+        "command": "Barra espaciadora",
+        "color": "blue"
+      }
+    ]
+  }
+]
