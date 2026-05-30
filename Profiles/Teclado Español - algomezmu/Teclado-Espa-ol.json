@@ -1,0 +1,1928 @@
+[
+  {
+    "name": "Release All Keys",
+    "triggers": [
+      "suelta todo",
+      "liberar teclas",
+      "soltar todo",
+      "release all",
+      "stop all"
+    ],
+    "key_sequence": [],
+    "confirmation": "Teclas liberadas.",
+    "enabled": true
+  },
+  {
+    "name": "Escape",
+    "triggers": [
+      "escape",
+      "esc",
+      "escapar",
+      "cancelar"
+    ],
+    "key_sequence": [
+      {
+        "key": "escape",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Escape",
+    "enabled": true
+  },
+  {
+    "name": "Enter",
+    "triggers": [
+      "enter",
+      "intro",
+      "confirmar",
+      "aceptar"
+    ],
+    "key_sequence": [
+      {
+        "key": "enter",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Enter",
+    "enabled": true
+  },
+  {
+    "name": "Backspace",
+    "triggers": [
+      "borrar",
+      "retroceso",
+      "backspace",
+      "borrar carácter"
+    ],
+    "key_sequence": [
+      {
+        "key": "backspace",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Backspace",
+    "enabled": true
+  },
+  {
+    "name": "Suprimir",
+    "triggers": [
+      "suprimir",
+      "delete",
+      "borrar siguiente"
+    ],
+    "key_sequence": [
+      {
+        "key": "delete",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Suprimir",
+    "enabled": true
+  },
+  {
+    "name": "Tab",
+    "triggers": [
+      "tabulador",
+      "tab",
+      "tabular"
+    ],
+    "key_sequence": [
+      {
+        "key": "tab",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Tab",
+    "enabled": true
+  },
+  {
+    "name": "Tab inverso",
+    "triggers": [
+      "tab inverso",
+      "retroceder tab"
+    ],
+    "key_sequence": [
+      {
+        "key": "tab",
+        "modifiers": [
+          "shift"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Tab inverso",
+    "enabled": true
+  },
+  {
+    "name": "Barra espaciadora",
+    "triggers": [
+      "espacio",
+      "space",
+      "barra espaciadora"
+    ],
+    "key_sequence": [
+      {
+        "key": "space",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Barra espaciadora",
+    "enabled": true
+  },
+  {
+    "name": "Inicio",
+    "triggers": [
+      "inicio",
+      "home",
+      "principio de línea"
+    ],
+    "key_sequence": [
+      {
+        "key": "home",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Inicio",
+    "enabled": true
+  },
+  {
+    "name": "Fin",
+    "triggers": [
+      "fin",
+      "end",
+      "final de línea"
+    ],
+    "key_sequence": [
+      {
+        "key": "end",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Fin",
+    "enabled": true
+  },
+  {
+    "name": "Re Pág",
+    "triggers": [
+      "re página",
+      "page up",
+      "página anterior",
+      "subir página"
+    ],
+    "key_sequence": [
+      {
+        "key": "page_up",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Re Pág",
+    "enabled": true
+  },
+  {
+    "name": "Av Pág",
+    "triggers": [
+      "av página",
+      "page down",
+      "página siguiente",
+      "bajar página"
+    ],
+    "key_sequence": [
+      {
+        "key": "page_down",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Av Pág",
+    "enabled": true
+  },
+  {
+    "name": "Flecha arriba",
+    "triggers": [
+      "arriba",
+      "flecha arriba",
+      "subir",
+      "cursor arriba"
+    ],
+    "key_sequence": [
+      {
+        "key": "up",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Flecha arriba",
+    "enabled": true
+  },
+  {
+    "name": "Flecha abajo",
+    "triggers": [
+      "abajo",
+      "flecha abajo",
+      "bajar",
+      "cursor abajo"
+    ],
+    "key_sequence": [
+      {
+        "key": "down",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Flecha abajo",
+    "enabled": true
+  },
+  {
+    "name": "Flecha izquierda",
+    "triggers": [
+      "izquierda",
+      "flecha izquierda",
+      "cursor izquierda"
+    ],
+    "key_sequence": [
+      {
+        "key": "left",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Flecha izquierda",
+    "enabled": true
+  },
+  {
+    "name": "Flecha derecha",
+    "triggers": [
+      "derecha",
+      "flecha derecha",
+      "cursor derecha"
+    ],
+    "key_sequence": [
+      {
+        "key": "right",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Flecha derecha",
+    "enabled": true
+  },
+  {
+    "name": "Imprimir pantalla",
+    "triggers": [
+      "imprimir pantalla",
+      "print screen",
+      "captura"
+    ],
+    "key_sequence": [
+      {
+        "key": "print_screen",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Imprimir pantalla",
+    "enabled": true
+  },
+  {
+    "name": "Pausa",
+    "triggers": [
+      "pausa",
+      "pause"
+    ],
+    "key_sequence": [
+      {
+        "key": "pause",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Pausa",
+    "enabled": true
+  },
+  {
+    "name": "Bloq Num",
+    "triggers": [
+      "bloq num",
+      "num lock",
+      "bloqueo numérico"
+    ],
+    "key_sequence": [
+      {
+        "key": "num_lock",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Bloq Num",
+    "enabled": true
+  },
+  {
+    "name": "Bloq Despl",
+    "triggers": [
+      "bloq despl",
+      "scroll lock"
+    ],
+    "key_sequence": [
+      {
+        "key": "scroll_lock",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Bloq Despl",
+    "enabled": true
+  },
+  {
+    "name": "Bloq Mayús",
+    "triggers": [
+      "bloq mayús",
+      "caps lock",
+      "mayúsculas fijas"
+    ],
+    "key_sequence": [
+      {
+        "key": "caps_lock",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Bloq Mayús",
+    "enabled": true
+  },
+  {
+    "name": "Insertar",
+    "triggers": [
+      "insertar",
+      "insert"
+    ],
+    "key_sequence": [
+      {
+        "key": "insert",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Insertar",
+    "enabled": true
+  },
+  {
+    "name": "Menú",
+    "triggers": [
+      "menú",
+      "menu",
+      "menú contextual"
+    ],
+    "key_sequence": [
+      {
+        "key": "menu",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Menú",
+    "enabled": true
+  },
+  {
+    "name": "F1",
+    "triggers": [
+      "f uno",
+      "f1"
+    ],
+    "key_sequence": [
+      {
+        "key": "F1",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F1",
+    "enabled": true
+  },
+  {
+    "name": "F2",
+    "triggers": [
+      "f dos",
+      "f2"
+    ],
+    "key_sequence": [
+      {
+        "key": "F2",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F2",
+    "enabled": true
+  },
+  {
+    "name": "F3",
+    "triggers": [
+      "f tres",
+      "f3"
+    ],
+    "key_sequence": [
+      {
+        "key": "F3",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F3",
+    "enabled": true
+  },
+  {
+    "name": "F4",
+    "triggers": [
+      "f cuatro",
+      "f4"
+    ],
+    "key_sequence": [
+      {
+        "key": "F4",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F4",
+    "enabled": true
+  },
+  {
+    "name": "F5",
+    "triggers": [
+      "f cinco",
+      "f5"
+    ],
+    "key_sequence": [
+      {
+        "key": "F5",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F5",
+    "enabled": true
+  },
+  {
+    "name": "F6",
+    "triggers": [
+      "f seis",
+      "f6"
+    ],
+    "key_sequence": [
+      {
+        "key": "F6",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F6",
+    "enabled": true
+  },
+  {
+    "name": "F7",
+    "triggers": [
+      "f siete",
+      "f7"
+    ],
+    "key_sequence": [
+      {
+        "key": "F7",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F7",
+    "enabled": true
+  },
+  {
+    "name": "F8",
+    "triggers": [
+      "f ocho",
+      "f8"
+    ],
+    "key_sequence": [
+      {
+        "key": "F8",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F8",
+    "enabled": true
+  },
+  {
+    "name": "F9",
+    "triggers": [
+      "f nueve",
+      "f9"
+    ],
+    "key_sequence": [
+      {
+        "key": "F9",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F9",
+    "enabled": true
+  },
+  {
+    "name": "F10",
+    "triggers": [
+      "f diez",
+      "f10"
+    ],
+    "key_sequence": [
+      {
+        "key": "F10",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F10",
+    "enabled": true
+  },
+  {
+    "name": "F11",
+    "triggers": [
+      "f once",
+      "f11"
+    ],
+    "key_sequence": [
+      {
+        "key": "F11",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F11",
+    "enabled": true
+  },
+  {
+    "name": "F12",
+    "triggers": [
+      "f doce",
+      "f12"
+    ],
+    "key_sequence": [
+      {
+        "key": "F12",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F12",
+    "enabled": true
+  },
+  {
+    "name": "Ctrl izquierdo",
+    "triggers": [
+      "control izquierdo",
+      "ctrl izquierdo"
+    ],
+    "key_sequence": [
+      {
+        "key": "ctrl",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Ctrl izquierdo",
+    "enabled": true
+  },
+  {
+    "name": "Alt izquierdo",
+    "triggers": [
+      "alt izquierdo",
+      "alt"
+    ],
+    "key_sequence": [
+      {
+        "key": "alt",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Alt izquierdo",
+    "enabled": true
+  },
+  {
+    "name": "Shift izquierdo",
+    "triggers": [
+      "shift izquierdo",
+      "mayúsculas",
+      "shift"
+    ],
+    "key_sequence": [
+      {
+        "key": "shift",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Shift izquierdo",
+    "enabled": true
+  },
+  {
+    "name": "Win",
+    "triggers": [
+      "tecla windows",
+      "inicio windows",
+      "win"
+    ],
+    "key_sequence": [
+      {
+        "key": "super",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Win",
+    "enabled": true
+  },
+  {
+    "name": "Uno",
+    "triggers": [
+      "uno",
+      "tecla uno",
+      "número uno"
+    ],
+    "key_sequence": [
+      {
+        "key": "1",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Uno",
+    "enabled": true
+  },
+  {
+    "name": "Dos",
+    "triggers": [
+      "dos",
+      "tecla dos",
+      "número dos"
+    ],
+    "key_sequence": [
+      {
+        "key": "2",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Dos",
+    "enabled": true
+  },
+  {
+    "name": "Tres",
+    "triggers": [
+      "tres",
+      "tecla tres",
+      "número tres"
+    ],
+    "key_sequence": [
+      {
+        "key": "3",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Tres",
+    "enabled": true
+  },
+  {
+    "name": "Cuatro",
+    "triggers": [
+      "cuatro",
+      "tecla cuatro",
+      "número cuatro"
+    ],
+    "key_sequence": [
+      {
+        "key": "4",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Cuatro",
+    "enabled": true
+  },
+  {
+    "name": "Cinco",
+    "triggers": [
+      "cinco",
+      "tecla cinco",
+      "número cinco"
+    ],
+    "key_sequence": [
+      {
+        "key": "5",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Cinco",
+    "enabled": true
+  },
+  {
+    "name": "Seis",
+    "triggers": [
+      "seis",
+      "tecla seis",
+      "número seis"
+    ],
+    "key_sequence": [
+      {
+        "key": "6",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Seis",
+    "enabled": true
+  },
+  {
+    "name": "Siete",
+    "triggers": [
+      "siete",
+      "tecla siete",
+      "número siete"
+    ],
+    "key_sequence": [
+      {
+        "key": "7",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Siete",
+    "enabled": true
+  },
+  {
+    "name": "Ocho",
+    "triggers": [
+      "ocho",
+      "tecla ocho",
+      "número ocho"
+    ],
+    "key_sequence": [
+      {
+        "key": "8",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Ocho",
+    "enabled": true
+  },
+  {
+    "name": "Nueve",
+    "triggers": [
+      "nueve",
+      "tecla nueve",
+      "número nueve"
+    ],
+    "key_sequence": [
+      {
+        "key": "9",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Nueve",
+    "enabled": true
+  },
+  {
+    "name": "Cero",
+    "triggers": [
+      "cero",
+      "tecla cero",
+      "número cero"
+    ],
+    "key_sequence": [
+      {
+        "key": "0",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Cero",
+    "enabled": true
+  },
+  {
+    "name": "Q",
+    "triggers": [
+      "q",
+      "tecla q"
+    ],
+    "key_sequence": [
+      {
+        "key": "q",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Q",
+    "enabled": true
+  },
+  {
+    "name": "W",
+    "triggers": [
+      "w",
+      "tecla w",
+      "doble u"
+    ],
+    "key_sequence": [
+      {
+        "key": "w",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "W",
+    "enabled": true
+  },
+  {
+    "name": "E",
+    "triggers": [
+      "e",
+      "tecla e"
+    ],
+    "key_sequence": [
+      {
+        "key": "e",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "E",
+    "enabled": true
+  },
+  {
+    "name": "R",
+    "triggers": [
+      "r",
+      "tecla r"
+    ],
+    "key_sequence": [
+      {
+        "key": "r",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "R",
+    "enabled": true
+  },
+  {
+    "name": "T",
+    "triggers": [
+      "t",
+      "tecla t"
+    ],
+    "key_sequence": [
+      {
+        "key": "t",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "T",
+    "enabled": true
+  },
+  {
+    "name": "Y",
+    "triggers": [
+      "y",
+      "tecla y",
+      "i griega"
+    ],
+    "key_sequence": [
+      {
+        "key": "y",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Y",
+    "enabled": true
+  },
+  {
+    "name": "U",
+    "triggers": [
+      "u",
+      "tecla u"
+    ],
+    "key_sequence": [
+      {
+        "key": "u",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "U",
+    "enabled": true
+  },
+  {
+    "name": "I",
+    "triggers": [
+      "i",
+      "tecla i"
+    ],
+    "key_sequence": [
+      {
+        "key": "i",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "I",
+    "enabled": true
+  },
+  {
+    "name": "O",
+    "triggers": [
+      "o",
+      "tecla o"
+    ],
+    "key_sequence": [
+      {
+        "key": "o",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "O",
+    "enabled": true
+  },
+  {
+    "name": "P",
+    "triggers": [
+      "p",
+      "tecla p"
+    ],
+    "key_sequence": [
+      {
+        "key": "p",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "P",
+    "enabled": true
+  },
+  {
+    "name": "A",
+    "triggers": [
+      "a",
+      "tecla a"
+    ],
+    "key_sequence": [
+      {
+        "key": "a",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "A",
+    "enabled": true
+  },
+  {
+    "name": "S",
+    "triggers": [
+      "s",
+      "tecla s"
+    ],
+    "key_sequence": [
+      {
+        "key": "s",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "S",
+    "enabled": true
+  },
+  {
+    "name": "D",
+    "triggers": [
+      "d",
+      "tecla d"
+    ],
+    "key_sequence": [
+      {
+        "key": "d",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "D",
+    "enabled": true
+  },
+  {
+    "name": "F",
+    "triggers": [
+      "f",
+      "tecla f"
+    ],
+    "key_sequence": [
+      {
+        "key": "f",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "F",
+    "enabled": true
+  },
+  {
+    "name": "G",
+    "triggers": [
+      "g",
+      "tecla g"
+    ],
+    "key_sequence": [
+      {
+        "key": "g",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "G",
+    "enabled": true
+  },
+  {
+    "name": "H",
+    "triggers": [
+      "h",
+      "tecla h"
+    ],
+    "key_sequence": [
+      {
+        "key": "h",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "H",
+    "enabled": true
+  },
+  {
+    "name": "J",
+    "triggers": [
+      "j",
+      "tecla j"
+    ],
+    "key_sequence": [
+      {
+        "key": "j",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "J",
+    "enabled": true
+  },
+  {
+    "name": "K",
+    "triggers": [
+      "k",
+      "tecla k"
+    ],
+    "key_sequence": [
+      {
+        "key": "k",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "K",
+    "enabled": true
+  },
+  {
+    "name": "L",
+    "triggers": [
+      "l",
+      "tecla l"
+    ],
+    "key_sequence": [
+      {
+        "key": "l",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "L",
+    "enabled": true
+  },
+  {
+    "name": "Ñ",
+    "triggers": [
+      "ñ",
+      "tecla ñ",
+      "eñe"
+    ],
+    "key_sequence": [
+      {
+        "key": "ntilde",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Ñ",
+    "enabled": true
+  },
+  {
+    "name": "Z",
+    "triggers": [
+      "z",
+      "tecla z",
+      "zeta"
+    ],
+    "key_sequence": [
+      {
+        "key": "z",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Z",
+    "enabled": true
+  },
+  {
+    "name": "X",
+    "triggers": [
+      "x",
+      "tecla x",
+      "equis"
+    ],
+    "key_sequence": [
+      {
+        "key": "x",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "X",
+    "enabled": true
+  },
+  {
+    "name": "C",
+    "triggers": [
+      "c",
+      "tecla c"
+    ],
+    "key_sequence": [
+      {
+        "key": "c",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "C",
+    "enabled": true
+  },
+  {
+    "name": "V",
+    "triggers": [
+      "v",
+      "tecla v"
+    ],
+    "key_sequence": [
+      {
+        "key": "v",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "V",
+    "enabled": true
+  },
+  {
+    "name": "B",
+    "triggers": [
+      "b",
+      "tecla b"
+    ],
+    "key_sequence": [
+      {
+        "key": "b",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "B",
+    "enabled": true
+  },
+  {
+    "name": "N",
+    "triggers": [
+      "n",
+      "tecla n"
+    ],
+    "key_sequence": [
+      {
+        "key": "n",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "N",
+    "enabled": true
+  },
+  {
+    "name": "M",
+    "triggers": [
+      "m",
+      "tecla m"
+    ],
+    "key_sequence": [
+      {
+        "key": "m",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "M",
+    "enabled": true
+  },
+  {
+    "name": "Copiar",
+    "triggers": [
+      "copiar",
+      "copy",
+      "ctrl c"
+    ],
+    "key_sequence": [
+      {
+        "key": "c",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Copiar",
+    "enabled": true
+  },
+  {
+    "name": "Pegar",
+    "triggers": [
+      "pegar",
+      "paste",
+      "ctrl v"
+    ],
+    "key_sequence": [
+      {
+        "key": "v",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Pegar",
+    "enabled": true
+  },
+  {
+    "name": "Cortar",
+    "triggers": [
+      "cortar",
+      "cut",
+      "ctrl x"
+    ],
+    "key_sequence": [
+      {
+        "key": "x",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Cortar",
+    "enabled": true
+  },
+  {
+    "name": "Deshacer",
+    "triggers": [
+      "deshacer",
+      "undo",
+      "ctrl z"
+    ],
+    "key_sequence": [
+      {
+        "key": "z",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Deshacer",
+    "enabled": true
+  },
+  {
+    "name": "Rehacer",
+    "triggers": [
+      "rehacer",
+      "redo",
+      "ctrl y"
+    ],
+    "key_sequence": [
+      {
+        "key": "y",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Rehacer",
+    "enabled": true
+  },
+  {
+    "name": "Guardar",
+    "triggers": [
+      "guardar",
+      "save",
+      "ctrl s"
+    ],
+    "key_sequence": [
+      {
+        "key": "s",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Guardar",
+    "enabled": true
+  },
+  {
+    "name": "Seleccionar todo",
+    "triggers": [
+      "seleccionar todo",
+      "select all",
+      "ctrl a"
+    ],
+    "key_sequence": [
+      {
+        "key": "a",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Seleccionar todo",
+    "enabled": true
+  },
+  {
+    "name": "Buscar",
+    "triggers": [
+      "buscar",
+      "find",
+      "ctrl f"
+    ],
+    "key_sequence": [
+      {
+        "key": "f",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Buscar",
+    "enabled": true
+  },
+  {
+    "name": "Nuevo",
+    "triggers": [
+      "nuevo",
+      "new",
+      "ctrl n"
+    ],
+    "key_sequence": [
+      {
+        "key": "n",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Nuevo",
+    "enabled": true
+  },
+  {
+    "name": "Cerrar",
+    "triggers": [
+      "cerrar",
+      "close",
+      "ctrl w"
+    ],
+    "key_sequence": [
+      {
+        "key": "w",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Cerrar",
+    "enabled": true
+  },
+  {
+    "name": "Abrir",
+    "triggers": [
+      "abrir",
+      "open",
+      "ctrl o"
+    ],
+    "key_sequence": [
+      {
+        "key": "o",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Abrir",
+    "enabled": true
+  },
+  {
+    "name": "Imprimir",
+    "triggers": [
+      "imprimir",
+      "print",
+      "ctrl p"
+    ],
+    "key_sequence": [
+      {
+        "key": "p",
+        "modifiers": [
+          "ctrl"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Imprimir",
+    "enabled": true
+  },
+  {
+    "name": "Alt Tab",
+    "triggers": [
+      "cambiar ventana",
+      "alt tab",
+      "siguiente ventana"
+    ],
+    "key_sequence": [
+      {
+        "key": "tab",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Alt Tab",
+    "enabled": true
+  },
+  {
+    "name": "Ctrl Alt Supr",
+    "triggers": [
+      "control alt suprimir",
+      "ctrl alt delete",
+      "administrador tareas"
+    ],
+    "key_sequence": [
+      {
+        "key": "delete",
+        "modifiers": [
+          "ctrl",
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Ctrl Alt Supr",
+    "enabled": true
+  },
+  {
+    "name": "Alt F4",
+    "triggers": [
+      "cerrar programa",
+      "alt f4",
+      "cerrar ventana"
+    ],
+    "key_sequence": [
+      {
+        "key": "F4",
+        "modifiers": [
+          "alt"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Alt F4",
+    "enabled": true
+  },
+  {
+    "name": "Win D",
+    "triggers": [
+      "mostrar escritorio",
+      "win d",
+      "escritorio"
+    ],
+    "key_sequence": [
+      {
+        "key": "d",
+        "modifiers": [
+          "super"
+        ],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.1,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "Win D",
+    "enabled": true
+  }
+]
